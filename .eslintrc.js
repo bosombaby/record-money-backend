@@ -10,9 +10,10 @@ module.exports = {
     },
   },
 
-  extends: ['eslint-config-egg', 'prettier', 'plugin:prettier/recommended'],
+  extends: ['prettier', 'plugin:prettier/recommended'],
 
   rules: {
     'prettier/prettier': 'warn',
+    'no-restricted-globals': ['error'],
   },
 };
