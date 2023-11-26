@@ -10,7 +10,7 @@ router.get('/', async (ctx) => {
   }
 })
 
-router.get('/users', async (ctx) => {
+router.get('/all', async (ctx) => {
   let res = await query(queryAll)
   ctx.body = {
     code: 200,
