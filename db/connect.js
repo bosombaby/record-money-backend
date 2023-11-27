@@ -6,7 +6,7 @@ const pool = mysql.createPool({
   url: '127.0.0.1',
   user: 'root',
   password: '123456',
-  database: '3d_resources',
+  database: 'record-money',
 })
 
 let query = async (sql, values) => {
